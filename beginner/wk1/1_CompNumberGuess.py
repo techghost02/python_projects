@@ -62,7 +62,7 @@ def play_game():
             if user_Number == comp_Number:
                 corret_Ans = True
             else:
-                print("Nah! Try again!")
+                print("❌ Nah! Try again!")
                 # Ask if the user wants a clue
                 while True:
                     clue_Needed = input("Would you like a clue? \n\"Y\" for yes \"N\" for no : ").upper()
@@ -81,7 +81,7 @@ def play_game():
                 else:
                     print("Okay okay! Carry on! Best of Luck!")
 
-        print(f"\nCongratulations!! You guessed the number in {tries} tries and your current points are {points} points.")
+        print(f"\n🎉 Congratulations!! You guessed the number in {tries} tries and your current points are {points} points.")
         games_Played += 1
 
         # Check if a new round is to be played
